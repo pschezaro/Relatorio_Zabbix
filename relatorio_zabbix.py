@@ -8,7 +8,7 @@ from datetime import datetime
 
 # ---------------------- CONFIGURAÇÕES ----------------------
 ZABBIX_URL = 'https://localhost/zabbix/api_jsonrpc.php'
-ZABBIX_USER = 'api'
+ZABBIX_USER = 'user'
 ZABBIX_PASSWORD = 'suasenha'
 EMAIL_REMETENTE = 'zabbix@localhost.com'
 SENHA = 'suasenha'
