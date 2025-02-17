@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 # ---------------------- CONFIGURAÇÕES ----------------------
-ZABBIX_URL = 'https://zab-spot.linktelcorp.com/zabbix/api_jsonrpc.php'
+ZABBIX_URL = 'https://localhost/zabbix/api_jsonrpc.php'
 ZABBIX_USER = 'api'
-ZABBIX_PASSWORD = '!@nhaca123'
-EMAIL_REMETENTE = 'zabbix@linktelcorp.com'
-SENHA = '!@nhaca123'
-EMAIL_DESTINATARIOS = ['paulo.schezaro@linktelwifi.com']  # Lista de e-mails
+ZABBIX_PASSWORD = 'suasenha'
+EMAIL_REMETENTE = 'zabbix@localhost.com'
+SENHA = 'suasenha'
+EMAIL_DESTINATARIOS = ['user@localrost.com']  # Lista de e-mails
 GROUP_ID = 94  # ID do grupo específico
 
 # ---------------------- AUTENTICAÇÃO ----------------------
